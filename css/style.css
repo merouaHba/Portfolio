@@ -472,7 +472,11 @@ header .container .navbar li a.active {
     width: 30%;
   }
 }
-
+@media (max-width:400px) {
+.landing .container .social {
+  width: 40%;
+}
+}
 /* end landing */
 /* start about me  */
 /* start about me  */
