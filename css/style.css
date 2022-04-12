@@ -121,11 +121,11 @@ header {
   background-color: var(--main-color);
   color: white;
   border-bottom: 0.4px solid #80808045;
-  transition: height .3s;
-  -webkit-transition: height .3s;
-  -moz-transition: height .3s;
-  -ms-transition: height .3s;
-  -o-transition: height .3s;
+  transition: .8s;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  -ms-transition: .8s;
+  -o-transition: .8s;
 }
 
 header .container {
@@ -232,8 +232,13 @@ header .container .navbar li a.active {
 
 @media (max-width:767px) {
   header.active {
-    height: 500px;
-  }
+    height: 400px;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+}
   header .container nav {
     align-items: flex-end;
     flex-direction: column;
@@ -255,7 +260,7 @@ header .container .navbar li a.active {
     display: block;
   }
   header .container nav .navbar li {
-      margin-bottom: 38px;
+      margin-bottom: 20px;
   }
 
   header .container nav .navbar.open {
