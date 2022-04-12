@@ -1190,6 +1190,11 @@ header .container .navbar li a.active {
     width: 100%;
   }
 }
+@media (max-width:300px) {
+  .testimonials .container .testimonials-container {
+    height: 300px;
+  }
+}
 /* 
 @media (max-width:576px) {
   .testimonials .container blockquote {
@@ -1305,7 +1310,7 @@ header .container .navbar li a.active {
 
   .contact .container .contact-container form input:first-of-type,
   .contact .container .contact-container form input:nth-of-type(2) {
-    width: 45%;
+    width: 48%;
   }
 
   .contact .container .contact-container form textarea,
@@ -1313,7 +1318,12 @@ header .container .navbar li a.active {
     width: 100%;
   }
 }
-
+@media (max-width:400px) {
+.contact .container .contact-container form input:first-of-type,
+.contact .container .contact-container form input:nth-of-type(2) {
+  width: 100%;
+}
+}
 /* end contact */
 /* start footer */
 footer {
