@@ -1135,7 +1135,7 @@ header .container .navbar li a.active {
   flex-direction: column;
   align-items: center;
   position: absolute;
-  left: -300%;
+  left: -400%;
   transition: left .8s;
   -webkit-transition: left .8s;
   -moz-transition: left .8s;
@@ -1180,13 +1180,13 @@ header .container .navbar li a.active {
 }
 
 @media (max-width:991px) {
-  .testimonials .container .testimonials-container .testimonial.active {
+  .testimonials .container .testimonials-container .testimonial{
     width: 80%;
   }
 }
 
 @media (max-width:767px) {
-  .testimonials .container .testimonials-container .testimonial.active {
+  .testimonials .container .testimonials-container .testimonial {
     width: 100%;
   }
 }
